@@ -50,6 +50,7 @@ if r.Method!="GET"{
 	return
 }
 http.ServeFile(w,r,"statics/index.html")
+
 }
 
 
